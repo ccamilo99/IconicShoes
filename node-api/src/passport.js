@@ -20,7 +20,7 @@ passport.use(
           return done(null, user);
         })
         .catch((err) => {
-          return done(err);//aqui esta el cambio
+          return done(err);//aqui esta el cambio x2
         });
     }
   )
